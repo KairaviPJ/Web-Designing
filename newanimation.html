@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation</title>
+	<style>
+		body{
+			width:100%;
+			background-color: grey;
+
+		}
+		.div1{height: 50px;
+			width: 50px;
+			border-radius: 100%;
+			background-color: blue;
+			animation-name: slide;
+			animation-duration: 2s;
+			float:left;
+			animation-direction: alternate;
+			/*position:absolute;*/
+			margin-left: 10%;
+			
+		}
+		.div2{height: 50px;
+			width: 50px;
+			border-radius: 100%;
+			background-color: lightgreen;
+			animation-name: slide;
+			animation-duration: 4s;
+			margin-left: 10%;
+			float:left;
+			animation-direction: alternate;
+			/*position:absolute;*/
+			animation-delay: 2s;
+			
+		}
+		.div3{height: 50px;
+			width: 50px;
+			border-radius: 100%;
+			background-color: salmon;
+			animation-name: slide;
+			animation-duration: 4s;
+			margin-left: 10%;
+			float:left;
+			animation-direction: alternate;
+			/*position:absolute;*/
+			animation-delay: 4s;
+			
+		}
+		.div4{height: 50px;
+			width: 50px;
+			border-radius: 100%;
+			background-color: lightblue;
+			animation-name: slide4;
+			animation-duration: 4s;
+			margin-left: 10%;
+			float:left;
+			animation-direction: alternate;
+			/*position:absolute;*/
+			animation-delay: 6s;
+			
+
+		}
+		@keyframes slide{
+			to{
+				border-radius: 100%;
+				top: 500px;
+				position: relative;
+			}
+			from{
+				border-radius: 30%;
+				top: 0px;
+				position: relative;
+				
+			}
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="div1"></div>
+	<div class="div2"></div>
+	<div class="div3"></div>
+	<div class="div4"></div>
+</body>
+</html>

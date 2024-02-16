@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Animation</title>
+    <style>
+        body{
+            background-color: plum;
+        }
+        .ball1{
+            border-radius: 100%;
+            width:3%;
+            height: 6%;
+            background-color: whitesmoke;
+            animation-name: a3;
+            animation-duration: 5s;
+            animation-fill-mode: backwards;
+            z-index:3;
+            animation-iteration-count: infinite;
+
+         
+        }
+        .ball2{
+            border-radius: 100%;
+            width:3%;
+            height: 6%;
+            background-color: palevioletred;
+            animation-name: a2;
+            animation-duration: 5s;
+            animation-fill-mode: backwards;
+            z-index: 2;
+            animation-iteration-count: infinite;
+
+        }
+        .ball3{
+            border-radius: 100%;
+            width:3%;
+            height: 6%;
+            background-color: blueviolet;
+            animation-name: a1;
+            animation-fill-mode: backwards;
+            animation-duration: 5s;
+            z-index:1;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes a1 {
+            0%{
+                position: absolute;
+                top:44%;
+                left:0%
+            }
+            25%{
+                position: absolute;
+                left:97%;
+                top:44%;
+            }
+            50%{
+                position: absolute;
+                left:0%;
+                top:44%;
+            }
+            75%{
+                position: absolute;
+                left:97%;
+                top:44%;
+            }
+            100%{
+                position: absolute;
+                left:44%;
+                top:44%;
+            }
+        }
+        @keyframes a2 {
+            0%{
+                position: absolute;
+                top:44%;
+                left:0%
+            }
+            25%{
+                position: absolute;
+                left:97%;
+                top:44%;
+            }
+            50%{
+                position: absolute;
+                left:44%;
+                top:0%;
+               
+            }
+            75%{
+                position: absolute;
+                left:0%;
+                top:44%;
+            }
+            100%{ 
+                position: absolute;
+                left:44%;
+                top:44%;
+            }
+        }
+        @keyframes a3{
+            0%{
+                position: absolute;
+                top:44%;
+                left:0%
+            }
+            25%{
+                position: absolute;
+                left:97%;
+                top:44%;
+            }
+            50%{
+                position: absolute;
+                left:44%;
+                top:97%;
+               
+            }
+            75%{
+                position: absolute;
+                left:0%;
+                top:44%;
+            }
+            100%{ 
+                position: absolute;
+                left:44%;
+                top:44%;
+            }
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="ball1"></div>
+    <div class="ball2"></div>
+    <div class="ball3"></div>
+
+</body>
+</html>
