@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Student registration</title>
+</head>
+<body>
+	<form>
+		<fieldset> 
+	<table align="center"cellspacing="50px"><caption align="center"><h1>Student Registration</h1></caption>
+	<tr><td>Full Name</td>
+	<td>:</td>
+	<td><input type="text" placeholder="Enter name">
+	</td></tr>
+
+	<tr><td>Email</td>
+		<td>:</td>
+		<td><input type="email"></td></tr>
+	<tr><td>Mobile number</td>
+		<td>:</td>
+		<td><input type="number" [0-9][10]></td></tr>
+	<tr><td>Address</td>
+		<td>:</td>
+		<td><textarea name="Address" rows="10px"></textarea></td></tr>
+		
+	<tr><td>Nationality</td>
+		<td>:</td>
+		<td><input type="text"></td></tr>
+	<tr><td>Date Of Birth<td>
+		<td>: <input type="date"></td></tr>
+	<tr><td>Gender</td>
+		<td>:</td>
+		<td> <input type="radio" name="Gender"> Male</td>
+	<td> <input type="radio" name="Gender"> Female</td></tr>
+	<tr>
+		<td><label for="Highest degree">Highest degree</label></td>
+		<td>:</td>
+		<td><select name="Highest degree" id="Highest degree">	
+			<option value="Select degree">Select degree</option>
+			<option value="10th">10th</option>
+			<option value="12th">12th</option>
+			<option value="Diploma">Diploma</option>
+			<option value="Bachelors">Bachelors</option>
+			<option value="masters">Masters</option>
+		</select>
+	
+</td>
+	</tr>
+
+	<tr><td>CPI</td>
+		<td>:</td>
+		<td><input type="text"></td></tr>
+	<tr><td>University</td>
+		<td>:</td>
+		<td><input type="text"></td></tr>
+		<tr>
+			<td><label for="Passing Year">Passing Year</label></td>
+			<td>:</td>
+			<td>
+				<select name="Passing Year" id="Passing Year">
+				<option value="Select your passing year">Select your passing year</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+				<option value="2021">2021</option>
+				<option value="2022">2022</option>
+				<option value="2023">2023</option>
+			</select>
+
+			</td>
+
+		</tr>
+	<tr><td><input type="submit" name="submit" value="submit"></td>
+		<td><input type="button" value="cancel"></td></tr>
+
+	</table>
+</fieldset>
+	</form>
+</body>
+</html>

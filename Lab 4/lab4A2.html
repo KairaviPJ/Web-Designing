@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Lab 4A-2</title>
+</head>
+<body>
+<form>
+	<fieldset>
+	<table align="center" cellspacing="50px"><caption><h1>COVID-19 Vaccine Registration Form</h1></caption>
+
+	<tr>
+	<td>First Name</td>
+	<td>:</td>
+	<td><input type="text"></td>
+	</tr>
+
+	
+	<tr>
+	<td>Last name</td>
+	<td>:</td>
+	<td><input type="text"></td>
+	</tr>
+
+	<tr>
+	<td>Aadhar Number</td>
+	<td>:</td>
+	<td> <input type="text"></td>
+	</tr>
+	
+	<tr>
+		<td><label for="vname">Vaccine name</label>
+		<td> : </td>
+		<td><select name="vname" id="vname">
+			<option selected disabled>Please select vaccine name</option>
+			<optgroup label="Indian origin">
+			<option value="COVAX">COVAXIN</option>
+			</optgroup>
+			<optgroup label="Foreign origin">
+			<option value="Covi">COVISHIELD</option>
+			<option value="Spi">SPUTNIK</option>
+		</optgroup>
+	</select>
+	</td>
+	</tr>
+
+	<tr>
+	<td><label for="Vaccination">Vaccination Center Name</label></td>
+	<td>:</td>
+	<td>
+	<select name="Vaccination" id="Vaccination">
+	<option value="Please select vaccination center name">Please select vaccination center</option>
+	<option value="abc">abc</option>
+	<option value="cat">cat</option>
+	<option value="bac">bac</option>
+	<option value="dog">dog</option>
+	</select>
+	</td>
+	</tr>
+
+	<tr>
+	<td> Date of Dose </td>
+	<td> : </td>
+	<td><input type="date"></td>
+	</tr>
+
+	<tr>
+	<td>Dose Number</td>
+	<td>:</td>
+	<td><input type="text" size="5" min="0" max="3"></td>
+	</tr>
+	<tr>
+	<td><input type="submit" value="CLICK HERE" name="submit"></td>
+	<td><input type="button" value="CANCEL"></td>
+	</tr>
+	</table>
+</fieldset>
+</form>
+</body>
+</html>
